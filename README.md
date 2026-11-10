@@ -23,12 +23,20 @@ The design is under development. Hardware testing and performance validation are
 
 Files and documentation will be added as the project progresses. Published designs may change following testing.
 
-## Planned repository contents
+## Hardware files
 
-- Firmware source code
-- Schematics and PCB design files
-- Mechanical arrangement details
-- Setup instructions and test results
+- `Servo PID Controller/kicad/` — Editable KiCad schematic, PCB layout, and project files.
+- `Servo PID Controller/gerbers/` — Gerber ZIP containing PCB manufacturing files prepared for JLCPCB.
+
+To inspect or modify the design, download the repository and open the project in KiCad.
+
+The Gerber ZIP can be uploaded directly to JLCPCB for a manufacturing preview. Check the board dimensions, layer count, and manufacturing settings against the KiCad design before ordering.
+
+## Development status
+
+The hardware design is shared for learning and development. Hardware testing and performance validation are pending, so the PCB should be treated as an unverified prototype.
+
+Firmware and test results will be added as development progresses.
 
 ## Intended operation
 
