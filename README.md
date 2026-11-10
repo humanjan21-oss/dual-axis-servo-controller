@@ -25,8 +25,8 @@ Files and documentation will be added as the project progresses. Published desig
 
 ## Hardware files
 
-- `Servo PID Controller/kicad/` — Editable KiCad schematic, PCB layout, and project files.
-- `Servo PID Controller/gerbers/` — Gerber ZIP containing PCB manufacturing files prepared for JLCPCB.
+- `Servo PID Controller/` — Editable KiCad project, schematic, and PCB layout.
+- `Servo PID Controller/Production Export/` — PCB manufacturing files, including the Gerber ZIP prepared for JLCPCB.
 
 To inspect or modify the design, download the repository and open the project in KiCad.
 
